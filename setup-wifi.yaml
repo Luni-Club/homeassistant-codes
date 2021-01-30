@@ -1,0 +1,15 @@
+wifi:
+  ssid: "***"		   		#Name of your Wifi Network
+  password: "***"			#Password of your Wifi
+  manual_ip:
+    static_ip: ***			#Choose an IP Adress outside DCHP spectrum of your Router
+    gateway: ***			#IP of your Router
+    subnet: 255.255.255.0
+    dns1: 10.10.1.1
+    dns2: 10.10.1.1
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "***"				#name of your node
+    password: "***"			#choose a wifi password
+

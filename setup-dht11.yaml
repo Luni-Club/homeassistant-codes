@@ -1,0 +1,9 @@
+sensor:
+  - platform: dht
+    pin: GPIO15				#pin of your ESP32/ESP8266
+    model: dht11    			
+    temperature:
+      name: "SenseNode Temp"		#choose a Name for your Temperature sensor
+    humidity:
+      name: "SenseNode Humidity"	#choose a Name for your humidity sensor
+    update_interval: 5s			#update interval of your sensor
